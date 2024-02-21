@@ -32,7 +32,7 @@ class WorldTime {
       return DateFormat.jm().format(currentTime);
     } catch (e) {
       print(e);
-      return "An error occurred!";
+      return e.toString();
     }
   }
 }
